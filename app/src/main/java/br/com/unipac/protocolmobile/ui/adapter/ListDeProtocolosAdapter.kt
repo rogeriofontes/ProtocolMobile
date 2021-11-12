@@ -30,7 +30,7 @@ class ListDeProtocolosAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        var protocolo = listDeProtocolos[position]
+                var protocolo = listDeProtocolos[position]
 
         holder.tvName.text = "${protocolo.primeiroNome}"
         if (position % 2 == 0) {
@@ -39,7 +39,7 @@ class ListDeProtocolosAdapter(
             holder.tvName.setBackgroundColor(Color.WHITE)
         }
 
-        holder.tvName.text = "${protocolo.primeiroNome}"
+      //  holder.tvName.text = "${protocolo.primeiroNome}"
         holder.tvNumeroProtocolo.text = "${protocolo.numeroProtocolo}"
 
     }

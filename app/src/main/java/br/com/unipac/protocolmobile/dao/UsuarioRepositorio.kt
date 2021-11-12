@@ -16,6 +16,12 @@ interface UsuarioRepositorio {
     @Query("SELECT * FROM usuario WHERE id IN (:usuarioIds)")
     fun loadAllByIds(usuarioIds: IntArray): List<Usuario>
 
+    @Query(
+        "SELECT * FROM usuario WHERE usename = :usuario AND " +
+                "senha = :senha"
+    )
+    fun findByUsuarioESenha(usuario : String, senha: String): Usuario
+
     @Insert
     fun insert(usuario: Usuario)
 

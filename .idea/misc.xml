@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/unipac/ProtocolMobile/app/src/main/res/layout/activity_login2.xml" value="0.35778985507246375" />
         <entry key="..\:/unipac/ProtocolMobile/app/src/main/res/layout/activity_main.xml" value="0.1609375" />
+        <entry key="..\:/unipac/ProtocolMobile/app/src/main/res/layout/activity_splash_screen.xml" value="0.35778985507246375" />
         <entry key="..\:/unipac/ProtocolMobile/app/src/main/res/layout/content_item_protocolo.xml" value="0.1609375" />
       </map>
     </option>
